@@ -8,7 +8,7 @@ if (!fs.existsSync(dirPath)) {
    fs.mkdirSync(dirPath);
 }
 
-//   membuat contact.json juka belum ada
+//   membuat contact.json jika belum ada
 const dataPath = "./data/contacts.json";
 if (!fs.existsSync(dataPath)) {
    fs.writeFileSync(dataPath, "[]", "utf-8");

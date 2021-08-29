@@ -14,11 +14,21 @@
             <div class="card-body">
                <h5 class="card-title"><%= contact.nama %></h5>
                <h6 class="card-subtitle mb-2 text-muted">
-                  <%= contact.noHp %>
+                  <%= contact.noHP %>
                </h6>
                <p class="card-text"><%= contact.email %></p>
                <a href="/contact" class="card-link">&laquo Back</a>
-               <a href="#" class="card-link">Another link</a>
+               <a
+                  href="/contact/edit/<%= contact.nama %> "
+                  class="btn btn-warning badge card-link"
+                  >Edit</a
+               >
+               <a
+                  href="/contact/delete/<%= contact.nama %> "
+                  class="btn btn-danger badge card-link"
+                  onclick="return confirm('Yakin ?')"
+                  >Delete</a
+               >
             </div>
          </div>
          <% } %>

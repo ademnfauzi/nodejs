@@ -1,1 +1,12 @@
-[{"nama":"ade","noHP":"081287229701","email":"ademuhammadnurfauzi@ymail.com"},{"nama":"Ade Muhammad Nur Fauzi76","noHP":"08128722970111","email":"tulisanpelajar07@gmail.com"}]
+[
+   {
+      "nama": "ade",
+      "noHP": "081287229701",
+      "email": "ademuhammadnurfauzi@ymail.com"
+   },
+   {
+      "nama": "Ade Muhammad Nur Fauzi76",
+      "noHP": "08128722970111",
+      "email": "tulisanpelajar07@gmail.com"
+   }
+]
